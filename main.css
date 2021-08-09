@@ -30,6 +30,11 @@ header{
 border-bottom: 2px solid #000;
 color: black;
 }
+.bottom__navigation a{
+    text-decoration: none;
+    color:gray;
+    margin-right: 10px;
+}
 /**
 colors
 */
@@ -41,7 +46,13 @@ colors
 }
 .grid{
     display: grid;
+    gap: 50px 15px;
+}
+.grid__4{
     grid-template-columns: repeat(4, 1fr);
+}
+.grid__3{
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .img__responsive img{
@@ -57,4 +68,8 @@ colors
 
 .margin-y{
     margin: 10px 0;
+}
+
+.margin-y__20{
+    margin: 20px auto;
 }
