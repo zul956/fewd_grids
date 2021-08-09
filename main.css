@@ -20,14 +20,41 @@ header{
     margin: 0 auto;
 }
 
+.middle_navigation a{
+    text-decoration: none;
+    color:gray;
+    margin-right: 10px;
+}
+
+.middle_navigation a:hover{
+border-bottom: 2px solid #000;
+color: black;
+}
 /**
 colors
 */
 .bg__white{
     background-color: white;
     border: 1px solid rgb(143, 143, 143);
+
+    box-shadow: 0 3px 10px rgb(181, 181, 181);
 }
 .grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.img__responsive img{
+    width: 100%;
+}
+.circle{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.p-10{
+    padding: 10px;
+}
+
+.margin-y{
+    margin: 10px 0;
 }
