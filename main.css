@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
     margin:0;
     background-color: #f5f5f5;
+    font-family: "Roboto", Times, serif ;
 }
 header{
     background-color: rgb(109, 109, 109);
@@ -14,6 +17,9 @@ header{
     justify-content: space-between;
 }
 
+.alignItemsCenter{
+    align-items: center;
+}
 
 .container{
     width: 80%;
